@@ -33,4 +33,3 @@ document.querySelector('button').addEventListener("click",(event)=>{
 div2.addEventListener("mouseover",(e)=>{
     div2.style.border = "4px solid black";
 })          // task 10
-
