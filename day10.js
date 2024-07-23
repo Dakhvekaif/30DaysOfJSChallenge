@@ -48,3 +48,15 @@ inputdata.addEventListener("change",(e)=>{
     parainput.textContent = e.target.value;
 })      // task 8
 
+const list = document.querySelectorAll('.lii')
+list.forEach(list => {
+    list.addEventListener("click",(e)=>{
+        console.log(e.target.innerHTML);
+    })
+})      // task 9
+const list1 = document.querySelector('ol')
+
+    list1.addEventListener("click",(e)=>{
+        console.log(e.target.innerHTML);
+    })     // task 10
+
