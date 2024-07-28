@@ -16,10 +16,13 @@ export default function userData1(){
     return "Hello this is a default function"
 }
 
-const Course_name = "JS Practice";
-const Time = "30 days";
-const completed = false
+export const Course_name = "JS Practice";
+export const Time = "30 days";
+export const completed = false
 
-export * from 'day13_myModule.mjs'
+export function divide(num1,num2){
+    return num1/ num2
+}
+
 
 
